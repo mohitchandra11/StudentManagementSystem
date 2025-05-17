@@ -23,7 +23,7 @@ public class SignupServlet extends HttpServlet {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             Connection conn = DriverManager.getConnection(
-                "jdbc:oracle:thin:@localhost:1521:xe", "System", "Mohit@123"
+                "jdbc:oracle:thin:@localhost:1521:xe", "System", "password"
             );
 
             String sql = "INSERT INTO students (name, email, course, password) VALUES (?, ?, ?, ?)";
