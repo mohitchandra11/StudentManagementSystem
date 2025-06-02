@@ -21,7 +21,7 @@ git clone https://github.com/mohitchandra11/StudentManagementSystem.git
 2. Import the project into Eclipse as an **Existing Dynamic Web Project**.  
 3. Configure Apache Tomcat server in Eclipse.  
 4. Run the project on the Tomcat server from Eclipse.  
-5. Access the web app at: `http://localhost:8080/your-project-name`
+5. Access the web app at: `http://localhost:8080/StudentManagementSystem`
 
 ## Notes
 - Make sure Apache Tomcat is installed and configured in your Eclipse IDE.  
